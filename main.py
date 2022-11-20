@@ -6,6 +6,7 @@
 
 import pygame
 import random
+from class_bullet import *
 WIDTH = 480
 HEIGHT = 600
 FPS = 60
