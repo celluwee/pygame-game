@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 import pygame
 class Mob(pygame.sprite.Sprite):
@@ -21,10 +17,5 @@ class Mob(pygame.sprite.Sprite):
             self.rect.x = random.randrange(WIDTH - self.rect.width)
             self.rect.y = random.randrange(-100, -40)
             self.speedy = random.randrange(1, 8)
-
-
-# In[ ]:
-
-
 
 
