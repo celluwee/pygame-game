@@ -1,6 +1,5 @@
 
 class Bullet(pygame.sprite.Sprite):
-    import pygame
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
         self.image = pygame.transform.scale(bullet_img, (5, 15))
