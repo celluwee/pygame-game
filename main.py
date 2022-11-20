@@ -13,7 +13,6 @@ from class_mob import *
 WIDTH = 480
 HEIGHT = 600
 FPS = 60
-# Задаем цвета
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
@@ -90,9 +89,8 @@ all_sprites.add(player)
 # Цикл игры
 running = True
 while running:
-    # Держим цикл на правильной скорости
     clock.tick(FPS)
-    # Ввод процесса (события)
+    # Ввод события
     for event in pygame.event.get():
         # проверка для закрытия окна
         if event.type == pygame.QUIT:
@@ -137,19 +135,6 @@ while running:
 pygame.quit()
 
 
-# In[ ]:
-
-
-
-
-
-# In[64]:
-
-
-
-
-
-# In[ ]:
 
 
 
