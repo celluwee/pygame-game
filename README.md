@@ -1,2 +1,2 @@
 # sila-taygi
-пишем игрууу
+having fun while coding an assignment for Python class
